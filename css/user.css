@@ -1,0 +1,48 @@
+.location_inner
+{
+    height: 60vh;
+    max-width: 100%;
+    border-radius: 12px;
+    background: #4444;
+}
+.location_inner iframe
+{
+    height: 100%;
+    width: 100%;
+}
+
+.contact_img-box h1
+{
+    font-style: oblique;
+    font-family: serif;
+    font-size: 40vh;
+    color:var(--main-color);
+    text-shadow: 1rem 1rem 10px var(--text-color);
+    animation:15s animate ease-in both  infinite;
+}
+@media screen and (min-width:1024px) {
+    .contact_img-box h1{font-size: 18rem;}
+}
+
+@keyframes animate {
+    0%
+    {
+       text-shadow: 1rem 1rem 0px var(--text-color);
+    }
+    50%
+    {
+       text-shadow: 1rem 1rem 5px var(--text-color);
+    }
+    100%
+    {
+       text-shadow: 1rem 1rem 10px var(--text-color);
+    }
+}
+
+
+.blog-box img
+{
+   max-width: 40rem;
+   height: 100%;
+   object-fit: cover;
+}
